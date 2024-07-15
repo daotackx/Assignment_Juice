@@ -1,0 +1,111 @@
+/* index.css */
+
+.table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 45rem;
+  margin: 0 auto;
+  background-color: #ffffffcc;
+  margin-bottom: 3rem;
+}
+
+.table th, .table td {
+  padding: 0.7rem;
+}
+
+.table tr:hover {
+  background-color: #62a08626;
+}
+
+.table th {
+  padding: 1rem;
+  text-align: left;
+  background-color: #62a086;
+  color: white;
+}
+
+.table__title {
+  text-align: center;
+  background-color: #ffffffa1;
+  padding: 1rem;
+  color: #034029;
+  letter-spacing: 0.2rem;
+}
+
+#table__title-action,
+#table__title-price,
+#table__title-id {
+  text-align: center;
+}
+
+/* Additional Bootstrap classes */
+.table-striped {
+  background-color: #f8f9fa;
+}
+
+.img-thumbnail {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100px;
+  max-height: 100px;
+}
+/* index.css */
+
+/* Modal */
+.modal {
+  display: none; /* Không hiển thị modal mặc định */
+  position: fixed; /* Hiển thị modal ở vị trí cố định */
+  z-index: 1000; /* Độ sâu của modal */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Cho phép cuộn khi modal quá dài */
+  background-color: rgb(0,0,0); /* Màu nền mờ */
+  background-color: rgba(0,0,0,0.4); /* Màu nền mờ với độ mờ */
+}
+
+/* Nội dung modal */
+.modal-content {
+  background-color: #fefefe; /* Màu nền nội dung modal */
+  margin: 15% auto; /* Căn giữa modal */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Độ rộng nội dung modal */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Header modal */
+.modal-header {
+  padding: 10px 16px;
+  background-color: #5cb85c; /* Màu nền header modal */
+  color: white;
+}
+
+/* Nút đóng */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Thân modal */
+.modal-body {
+  padding: 16px;
+}
+
+/* Footer modal */
+.modal-footer {
+  padding: 10px 16px;
+  background-color: #5cb85c; /* Màu nền footer modal */
+  color: white;
+}

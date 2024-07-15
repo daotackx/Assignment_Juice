@@ -1,0 +1,57 @@
+/* src/components/Products.css */
+
+/* .products {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+/* .products-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+} */
+
+/* .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+/* 
+.card {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+@media (max-width: 992px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+}
+
+.card-text {
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #62a086;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4a7c63;
+}

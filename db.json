@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "name": "Carrot juice",
+      "price": "35",
+      "id": "1",
+      "image": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/10/carrot-juice-1296x728-header.jpg?w=1155&h=1528"
+    },
+    {
+      "name": "Apple juice",
+      "price": "5",
+      "id": "2",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230601173018-apple-juice-file-060123.jpg?c=16x9&q=h_833,w_1480,c_fill"
+    },
+    {
+      "name": "Coconut water",
+      "price": "3",
+      "id": "3",
+      "image": "https://images.healthshots.com/healthshots/en/uploads/2024/01/30173952/coconut-water-1.jpg"
+    },
+    {
+      "name": "Lemon juice",
+      "price": "2",
+      "id": "4",
+      "image": "https://images.healthshots.com/healthshots/en/uploads/2023/04/15092339/lemon-juice-1600x900.jpg"
+    },
+    {
+      "name": "Berry juice",
+      "price": "2",
+      "id": "7",
+      "image": "https://images.prismic.io/goodnature/MjExNDE3NjQtM2QxZi00YjExLWIwMGEtNmVjMzg4NGYyZjg0_berry-explosion-juice-hero.jpg?auto=compress%2Cformat&rect=0%2C0%2C1200%2C628&w=1200&h=628&q=75"
+    },
+    {
+      "id": "8473",
+      "name": "Cam",
+      "price": 23,
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230601173018-apple-juice-file-060123.jpg?c=16x9&q=h_833,w_1480,c_fill"
+    }
+  ]
+}
